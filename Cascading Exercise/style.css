@@ -1,0 +1,29 @@
+h2.section-header#skills-header {
+  background: yellow;
+}
+div.skills-wrapper {
+  border-style: solid;
+  overflow: hidden;
+}
+div.skills-wrapper#programming-languages {
+  float: left;
+  width: 50%;
+}
+ul.program-skills {
+  color: red;
+  background-color: #F5B7B1;
+  border-style: solid;
+  border-color: red;
+
+  font-size: 1.75em;
+  font-family: Courier
+}
+ul.soft-skills {
+  color: blue;
+  background-color: #AED6F1;
+  border-style: solid;
+  border-color: blue;
+
+  font-size: 1.75em;
+  font-family: Courier
+}

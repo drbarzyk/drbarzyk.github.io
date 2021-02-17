@@ -1,0 +1,82 @@
+/* navy: #2b2d42*/
+/* gray: #f6f5f5*/
+/* white: #edf2f4 */
+/* salmon: #ef233c */
+/* red: #d90429 */
+:root {
+  --banner-size: 7.5em;
+}
+#page-banner {
+  position: fixed;
+  left: 0; top: 0;
+  min-height: var(--banner-size);
+  width: 100%;
+  margin: auto;
+  text-align: center;
+
+  background-color: #d90429;
+}
+
+span {
+  color: #edf2f4;
+  font-size: 7.5vmin;
+}
+
+.link-container {
+  margin-top: var(--banner-size);
+  background-color: #2b2d42;
+
+  padding: 1.5em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.navlink {
+  font-family: sans-serif;
+  font-size: 2vmin;
+  margin: 1.5vw;
+  color: #edf2f4;
+}
+
+.spacer {
+  background: white;
+  width:200px;
+  flex-grow: 1;
+}
+
+#left-spacer {
+  float: left;
+}
+
+#right-spacer {
+  float: right;
+}
+
+.flexbox {
+  display: flexbox;
+}
+
+.info-container {
+  background-color: #e7e6e1;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 2em;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
