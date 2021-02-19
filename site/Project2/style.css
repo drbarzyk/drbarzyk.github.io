@@ -1,0 +1,64 @@
+/* navy: #2b2d42*/
+/* gray: #f6f5f5*/
+/* white: #edf2f4 */
+/* salmon: #ef233c */
+/* red: #d90429 */
+:root {
+  --banner-size: 7.5em;
+}
+#page-banner {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  position: fixed;
+  left: 0; top: 0;
+  min-height: var(--banner-size);
+  width: 100%;
+  margin: auto;
+  text-align: center;
+
+  background-color: #d90429;
+}
+
+span {
+  color: #edf2f4;
+  font-size: 7.5vmin;
+}
+
+main {
+  margin-top: var(--banner-size);
+  padding: .5em;
+}
+
+.info-container {
+  background-color: #e7e6e1;
+  border-radius: 1em;
+  border-color: #2b2d42;
+  border-style: solid;
+  padding: 1em;
+  margin: 2em;
+}
+
+.info-header {
+  text-align: center;
+}
+
+.info-body {
+  font-family: 'Courier New', monospace;
+
+}
+
+.unordered-list {
+  list-style-type: "> ";
+}
+
+.info-details {
+  font-weight: bold;
+}
+
+#vt-logo {
+  height: 2em;
+}

@@ -9,32 +9,13 @@
 
 <body>
 
-  <div id="page-banner" class="flex-container">
+  <div id="page-banner">
     <span>Dan Barzyk</span>
-  </div>
-  <div class="flexbox">
-    <div id="left-spacer" class="spacer">
-
-    </div>
-
-    <div id="right-spacer" class="spacer">
-
-    </div>
-    <nav class="link-container">
-      <ul>
-        <li><a href="#contact" class="navlink">Contact Information</a><br></li>
-        <li><a href="#education" class="navlink">Education</a><br></li>
-        <li><a href="#skills" class="navlink">Skills</a><br></li>
-        <li><a href="#work" class="navlink">Work Experience</a><br></li>
-        <li><a href="#extracurricular" class="navlink">Extracurricular Activities</a></li>
-      </ul>
-    </nav>
   </div>
   <main>
     <section class="info-container">
       <h2 class="info-header">Contact Information</h2>
       <div class="info-body">
-        <h2>Daniel R. Barzyk</h2>
         <div>
           <h3>Address</h3>
           <p>813 Patrick Henry Dr.<br>Blacksburg, VA 24060</p>
@@ -48,8 +29,10 @@
     <section class="info-container">
       <h2 class="info-header">Education</h2>
       <div class="info-body">
-        <img src="VTlogo.png" alt="VT Logo"><br>
-        <a href="https://vt.edu/">Virginia Polytechnic and State University</a>, <i>Blacksburg, VA</i>
+        <p class="info-details">
+          <img id="vt-logo" src="VTlogo.png" alt="VT Logo"><br>
+          <a href="https://vt.edu/">Virginia Polytechnic and State University</a>, <i>Blacksburg, VA</i>
+        </p>
         <p>Computer Science Major<br>Current GPA: 3.4/4.0<br>Expected Graduation: May 2022</p>
       </div>
     </section>
@@ -68,8 +51,10 @@
       <h2 class="info-header">Work Experience</h2>
       <div class="info-body">
         <section>
-          <p><a href="https://maap.ictas.vt.edu/">Virginia Tech Mid-Atlantic Aviation Partnership,</a> <i>Blacksburg, VA</i><br><i>Student Intern</i><br>September 2018 - Present</p>
-          <ul>
+          <p class="info-details">
+            <a href="https://maap.ictas.vt.edu/">Virginia Tech Mid-Atlantic Aviation Partnership,</a> <i>Blacksburg, VA</i><br><i>Student Intern</i><br>September 2018 - Present
+          </p>
+          <ul class="unordered-list">
             <li>Developing research-driven solutions to critical challenges in the Unmanned Aerial Systems industry</li>
             <li>Tasked with computer science based projects including: building database applications for risk assessment,
               writing, organizing, and optimizing code in Java, Python, and Visual Basic for Applications, and running
@@ -78,8 +63,10 @@
           </ul>
         </section>
         <section>
-          <p><a href="https://www.paradigmsoftware.com/">Paradigm Software, L.L.C.,</a> <i>Cockeysville, MD</i><br><i>Intern Programmer</i><br>Summer 2019</p>
-          <ul>
+          <p class="info-details">
+            <a href="https://www.paradigmsoftware.com/">Paradigm Software, L.L.C.,</a> <i>Cockeysville, MD</i><br><i>Intern Programmer</i><br>Summer 2019
+          </p>
+          <ul class="unordered-list">
             <li>Learned valuable programming skills in C#, SQL, Visual Basic, and HTML</li>
             <li>Utilized design skills to redesign company website with potential clients in mind adding modern, user-friendly
               features; collaborated with other interns to create a final product and presented changes to the Programming
@@ -87,8 +74,10 @@
           </ul>
         </section>
         <section>
-          <p><a href="https://www.woodholme.org/home.aspx">Woodholme Country Club,</a> <i>Pikesville, MD</i><br><i>Bag Room Attendant</i><br>Summer 2016 - Summer 2018</p>
-          <ul>
+          <p class="info-details">
+            <a href="https://www.woodholme.org/home.aspx">Woodholme Country Club,</a> <i>Pikesville, MD</i><br><i>Bag Room Attendant</i><br>Summer 2016 - Summer 2018
+          </p>
+          <ul class="unordered-list">
             <li>Conducted daily golf course preparation and closing procedures, such as picking and setting the driving range,
               organizing and preparing the staging area, and washing and parking our fleet of golf carts for the night</li>
             <li>Delivered customer service to members of the country club and their guests through greeting them as they
@@ -103,7 +92,9 @@
       <h2 class="info-header">Extracurricular Activities</h2>
       <div class="info-body">
         <section>
-          <p><b>Phi Delta Theta Fraternity,</b> <i>Blacksburg, VA</i><br><i>Brother</i><br>December 2018 - Present</p>
+          <p class="info-details">
+            Phi Delta Theta Fraternity, <i>Blacksburg, VA</i><br><i>Brother</i><br>December 2018 - Present
+          </p>
           <ul class="unordered-list">
             <li class="list-element">Engage in weekly chapter meetings, social and brotherhood events, and community service opportunities
               throughout the year</li>
@@ -112,7 +103,9 @@
           </ul>
         </section>
         <section>
-          <p><b>Galileo Living Learning Community,</b> <i>Blacksburg, VA</i><br><i>Member</i><br>August 2018 - May 2019</p>
+          <p class="info-details">
+            Galileo Living Learning Community, <i>Blacksburg, VA</i><br><i>Member</i><br>August 2018 - May 2019
+          </p>
           <ul class="unordered-list">
             <li class="list-element">Lived in Lee Hall as part of the inVenTs community of male and female STEM students</li>
             <li class="list-element">Attended weekly “engineering success” seminars, participated in community service in the Blacksburg area,
