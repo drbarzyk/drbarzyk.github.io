@@ -21,10 +21,12 @@
   text-align: center;
 
   background-color: #d90429;
-  
+}
+
+#page-title {
   color: #edf2f4;
-  font-size: 7.5vmin;
   font-family: cursive;
+  font-size: 7.5vmin;
 }
 
 #page-content {
