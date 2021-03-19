@@ -1,0 +1,42 @@
+.header {
+	padding: 1.25em;
+}
+
+.footer {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4em;
+    line-height: 60px;
+    background-color: #00274C;
+}
+
+.footer p {
+	color: #d4e7f7;
+	opacity: .4;
+}
+
+.prop-card {
+	background-color: #ebeef1;
+	border-radius: 1em;
+}
+
+.card-img-bg {
+	border-radius: 1em 1em 0 0;
+}
+
+.player-headshot {
+	width: 75%;
+}
+
+.progress-bar-container {
+	background-color: red;
+	width: 100%;
+	border-radius: 0 0 1em 1em;
+}
+
+.progress-bar {
+	background-color: green;
+	width: 100%;
+	border-radius: 0 0 1em 1em;
+}

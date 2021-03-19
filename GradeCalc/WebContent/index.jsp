@@ -1,5 +1,5 @@
 <%@page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8" import="com.bettracker.jsp.*"%>
+	pageEncoding="UTF-8" import="com.gradecalc.jsp.*"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -29,7 +29,7 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="header text-center">
-					<h2>🌅 BoardCheck Bet Tracker 🌅</h1>
+					<h2>Welcome!</h1>
 					<i></i>
 				</div>
 			</div>
@@ -39,10 +39,10 @@
 	<div class="container overflow-auto">
 		<div class="row">
 			<div class="col-8 offset-2 col-md-6 offset-md-0">
-				<%@include file="propcard.jsp"%>
+			
 			</div>
 			<div class="col-8 offset-2 col-md-6 offset-md-0">
-				<%@include file="propbuilder.jsp"%>
+			
 			</div>
 		</div>
 	</div>
